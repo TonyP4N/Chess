@@ -52,7 +52,7 @@ public class Game {
 							}
 						}
 					}
-					if (gameEnd==true){
+					if (gameEnd){
 						System.out.println("Game ended");
 						break;
 					}
