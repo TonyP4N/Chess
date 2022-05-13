@@ -1,7 +1,6 @@
-package chess;
-
 import static org.junit.Assert.*;
 
+import chess.*;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -1,6 +1,6 @@
-package chess;
-
 import static org.junit.Assert.*;
+
+import chess.Piece;
 import org.junit.AfterClass;
 import org.junit.Test;
 import java.lang.reflect.Field;
@@ -110,7 +110,7 @@ public class BoardTest{
     	public void boardStaticMethod_4Test() {
             try {
             	Class <?> cls = Class.forName("chess.Board");
-    			Method m=cls.getDeclaredMethod("movePiece",int.class,int.class,int.class,int.class,Piece.class);
+    			Method m=cls.getDeclaredMethod("movePiece",int.class,int.class,int.class,int.class, Piece.class);
             	assertTrue(Modifier.isStatic(m.getModifiers()));
             	if (Modifier.isStatic(m.getModifiers())) {
     				brd++;

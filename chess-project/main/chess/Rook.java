@@ -23,9 +23,6 @@ public class Rook extends Piece {
 	}
 
 	public boolean isLegitMove(int i0, int j0, int i1, int j1) {
-//		if  {
-//			return false;
-//		}
 
 		if (j0 == j1) {
 			for (int l = Math.min(i0, i1)+1; l < Math.max(i0, i1); l++) {

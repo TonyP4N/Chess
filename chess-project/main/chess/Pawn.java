@@ -46,6 +46,7 @@ public class Pawn extends Piece {
 				return false;
 			}
 			if (Math.abs(j1 - j0) == 0) {
+
 				return !(Board.hasPiece(i1, j1));
 			} else {
 				return (Board.hasPiece(i1, j1));

@@ -1,7 +1,6 @@
-package chess;
-
 import static org.junit.Assert.*;
 
+import chess.CheckInput;
 import org.junit.Test;
 
 public class CheckInputTest {

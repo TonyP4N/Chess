@@ -1,7 +1,6 @@
-package chess;
-
 import static org.junit.Assert.*;
 
+import chess.PieceColour;
 import org.junit.Test;
 import java.lang.reflect.Modifier;
 

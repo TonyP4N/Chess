@@ -1,6 +1,6 @@
-package chess;
-
 import static org.junit.Assert.*;
+
+import chess.Piece;
 import org.junit.AfterClass;
 import org.junit.Test;
 import java.lang.reflect.Field;
@@ -94,7 +94,7 @@ public class SquareTest{
     public void setPieceTest() {
         try {
             Class <?> cls = Class.forName("chess.Square");
-            Method m=cls.getDeclaredMethod("setPiece",Piece.class);
+            Method m=cls.getDeclaredMethod("setPiece", Piece.class);
             assertTrue(Modifier.isPublic(m.getModifiers()));
             if (Modifier.isPublic(m.getModifiers())) {
                 squ++;

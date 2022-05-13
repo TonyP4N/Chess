@@ -42,7 +42,6 @@ public class Queen extends Piece {
 		} else if (Math.abs(j1 - j0) != Math.abs(i1 - i0)) {
 			return false;
 		} else {
-//			int m = 1;
 			for (int m = 1; m < Math.abs(j1 - j0); m++) {
 				if (i0 > 0) {
 					int i2 = i0 - m;
